@@ -1,51 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista 4 - Componentização e Reutilização Visual</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
 </head>
-<body class="bg-black">
-    <section class="p-16 grid grid-cols-3 gap-6 mx-auto h-screen">
-        <section class="bg-red-400 py-8 px-12 flex flex-col justify-between rounded-lg hover:shadow-lg hover:-translate-y-1 transition-transform duration-300">
-            <div>
-                <h3 class="text-4xl font-semibold mb-6">Eleven</h3>
-                <p class="">Eleven, interpretada por Millie Bobby Brown, é uma das personagens centrais da série Stranger Things, da Netflix. Desde sua introdução, ela se destaca por suas habilidades telecinéticas e por sua história misteriosa e emocionante. Criada em um laboratório governamental, Eleven foi usada como cobaia em experimentos secretos que buscavam explorar poderes mentais e dimensões paralelas. Esses testes abriram o portal para o Mundo Invertido, origem de muitas das ameaças que assolam a cidade de Hawkins.
-
-                Apesar de seu passado traumático, Eleven é uma personagem marcada pela força e pela sensibilidade. Ao fugir do laboratório, ela é acolhida por Mike e seus amigos, que se tornam sua nova família. Com eles, Eleven aprende sobre amizade, lealdade e amor — experiências que a ajudam a se reconectar com sua humanidade. Sua jornada é tanto emocional quanto heroica: ela precisa lidar com o medo, o isolamento e o peso de ser diferente, ao mesmo tempo em que usa seus poderes para proteger quem ama.
-
-                Ao longo das temporadas, Eleven evolui de uma menina silenciosa e assustada para uma jovem confiante e determinada, enfrentando ameaças poderosas e descobrindo mais sobre sua origem. Sua história simboliza o poder da empatia, da coragem e da superação diante do sofrimento e do medo.</p>
-            </div>
-            <button class="text-2xl font-medium bg-black text-white py-4 w-full rounded-lg focus:ring-2 cursor-pointer ">Protagonista</button>
-        </section>
-
-        <section class="bg-red-400 py-8 px-12 flex flex-col justify-between rounded-lg hover:shadow-lg hover:-translate-y-1 transition-transform duration-300">
-            <div>
-                <h3 class="text-4xl font-semibold mb-6">Amigos da Eleven</h3>
-                <p class="">Os amigos de Eleven são parte essencial de sua jornada e representam o coração de Stranger Things. Desde o momento em que ela foge do laboratório e encontra Mike, Lucas, Dustin e Will, sua vida muda completamente. Eles não apenas a acolhem, mas também se tornam sua primeira verdadeira família — pessoas que a aceitam como ela é, mesmo sem entender totalmente seus poderes ou seu passado.
-
-                Mike Wheeler é o primeiro a se aproximar dela, mostrando empatia e proteção desde o início. Sua amizade rapidamente se transforma em um laço profundo, cheio de carinho e confiança. Lucas Sinclair, mais cético no começo, aprende a enxergar Eleven além de suas habilidades, tornando-se um amigo leal e racional. Já Dustin Henderson traz leveza e humor, sendo o elo que une o grupo com sua curiosidade e otimismo. Will Byers, que enfrentou o terror do Mundo Invertido, compartilha com Eleven o trauma e a sensibilidade de quem já sentiu o medo de perto.
-
-                Juntos, eles formam um grupo que simboliza a força da amizade verdadeira — aquela que enfrenta o perigo, o sobrenatural e até a dor da perda. Ao lado deles, Eleven descobre o significado de pertencimento e aprende que o amor e a união podem ser mais poderosos do que qualquer habilidade sobrenatural.</p>
-            </div>
-            <button class="text-2xl font-medium bg-black text-white py-4 w-full rounded-lg focus:ring-2 cursor-pointer ">Conheça os personagens</button>
-        </section>
-
-        <section class="bg-red-400 py-8 px-12 flex flex-col justify-between rounded-lg hover:shadow-lg hover:-translate-y-1 transition-transform duration-300">
-            <div>
-                <h3 class="text-4xl font-semibold mb-6">A 5 Temporada</h3>
-                <p class="">A 5ª temporada de Stranger Things promete ser o grande encerramento da história de Eleven e seus amigos. Ambientada em 1987, ela mostrará Hawkins em quarentena após a abertura do portal do Mundo Invertido. A batalha final contra Vecna será o foco, com revelações sobre a origem do Mundo Invertido e o verdadeiro papel de Eleven nesse conflito.
-
-                Os criadores da série afirmaram que esta será a temporada mais épica e intensa, com episódios cheios de ação e emoção. Há rumores de que alguns personagens importantes podem morrer, tornando o final ainda mais marcante. Eleven deve enfrentar seu maior desafio, talvez precisando sacrificar seus poderes ou até sua vida para salvar o mundo.
-
-                Os amigos — Mike, Will, Dustin e Lucas — terão papel fundamental nessa luta, mostrando o valor da união e da amizade que sempre sustentou a série. Tudo indica que a temporada trará um desfecho grandioso, misturando drama, nostalgia e ação, e encerrando de forma inesquecível a jornada que começou em Hawkins.</p>
-            </div>
-            <button class="text-2xl font-medium bg-black text-white py-4 w-full rounded-lg focus:ring-2 cursor-pointer ">Ver trailer</button>
-        </section>
-
+<body class="mx-5">
+    <nav class="flex items-center justify-between m-10">
+        <img src="assets/img/Logo Infowebeti.png" alt="Logo de Infowebeti">
+        <ul class="flex gap-[30px] text-[#667085]">
+            <li><a href="" >Sobre</a></li>
+            <li><a href="" >Professores</a></li>
+            <li><a href="" >Alunos</a></li>
+            <li><a href="" >Projetos</a></li>
+            <button class= "bg-[#182230] text-[#FFFFFF] rounded-xl pl-[25px] pr-[25px] p-[7px]">Documentos</button>
+        </ul>
+    </nav>
+    <div class="bg-[#F2F4F7] text-center  rounded-2xl mr-20 ml-20">
+        <h1 class=" font-semibold text-3xl pt-20 pb-10">Depois de muita espera,<br> finalmente chegou</h1>
+        <p class="text-center text-[#667085] mb-5">O formulário para aquisição da camisa está oficialmente aberto!<br> Com um design original e dois modelos únicos, você vai poder <br>mostrar todo o seu orgulho de fazer parte dessa turma incrível!</p>
+        <ul class="flex items-center justify-center gap-8 pb-20">
+            <li><button class="bg-[#182230] text-[#FFFFFF] rounded-xl p-3 pl-5 pr-5 ">Ser feliz agora</button></li>
+            <li><button class="border-[1px] border-black rounded-xl p-3 pl-5 pr-5 bg-[#FFFFFF] text-semibold ">Ficar triste</button></li>
+        </ul>
+    </div>
+    <section class="flex justify-between mt-10 mx-5">
+        <img src="assets/img/Nasa.png" alt="#" class="w-15 h-5 object-cover" >
+        <img src="assets/img/Spotify.png " alt="icone do Spotify" class="w-15 h-5 object-cover">
+        <img src="assets/img/Google.png" alt="#" class="w-15 h-5 object-cover">
+        <img src="assets/img/Facebook.png" alt="#" class="w-15 h-5 object-cover">
+        <img src="assets/img/Instagram.png" alt="#" class="w-15 h-5 object-cover">
+        <img src="assets/img/Microsoft.png" alt="#" class="w-15 h-5 object-cover">
+        <img src="assets/img/Dropbox.png" alt="#" class="w-15 h-5 object-cover">
     </section>
+    <ul class="flex gap-8 ml-12 mt-20 justify-around">
+  <li>
+    <div class="flex items-center gap-2">
+      <span class="material-symbols-outlined">stat_minus_1</span>
+      <strong>Ela é linda</strong>
+    </div>
+    <p class="mt-2 text-sm ml-10">Além de bonita, é a mais top</p>
+  </li>
+  <li>
+    <div class="flex items-center gap-2">
+      <span class="material-symbols-outlined">chevron_right</span>
+     <strong>Azul destaque</strong>
+    </div>
+    <p class="mt-2 text-sm ml-10">O azul royal ficou pra trás. Contemple o novo azul esmeralda</p>
+  </li>
+  <li>
+    <div class="flex items-center gap-2">
+      <span class="material-symbols-outlined">chevron_right</span>
+      <strong>Webeti</strong>
+    </div>
+    <p class="mt-2 text-sm ml-10">O nosso mascote é um gênio da informática</p>
+  </li>
+</ul>
+<hr class="m-10">
+
+<img src="assets/img/Camisa Infowebeti.png" alt="Imagem da camisa" class="w-full">
+<h1 class="text-center font-semibold text-4xl m-10">Alunos que já compraram</h1>
+<p class="text-[#667085] tracking-wider text-center">Junte aos milhares de alunos de info que já estão vestindo a <br> nossa camiseta linda e maravilhosa.</p>
+
+<ul class="flex justify-around mt-10 text-center">
+    <li> <h1 class="text-5xl font-semibold m-5">234+</h1>
+    <p class="text-[#667085] mb-10">Primeiro número</p>
+    </li>
+    <li><h1 class="text-5xl font-semibold m-5">38,903+</h1>
+    <p class="text-[#667085] mb-10">Segundo número</p></li>
+    <li><h1 class="text-5xl font-semibold m-5">154+</h1>
+    <p class="text-[#667085] mb-10">Terceiro número</p></li>
+</ul>
+
+    
 </body>
 </html>
-<!-- Poderia representar um componente de destaque ou apresentação de conteúdo, sendo ideal para exibir personagens, produtos, serviços ou notícias de forma organizada e atraente.
- -->

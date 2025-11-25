@@ -13,27 +13,29 @@
 </head>
 
 <body class="mx-5">
-    <nav class="flex items-center justify-between m-10">
-        <img src="img/Logo Infowebeti.png" alt="Logo de Infowebeti">
-        <ul class="flex gap-[30px] text-[#667085]">
-            <button class="btn btn-ghost rounded-2xl">Sobre</button>
-            <button class="btn btn-ghost rounded-2xl">Professores</button>
-            <button class="btn btn-ghost rounded-2xl">Alunos</button>
-            <button class="btn btn-ghost rounded-2xl">Projetos</button>
-            <button class="btn btn-neutral rounded-2xl">Documentos</button>
-        </ul>
-    </nav>
-    <div class="bg-[#F2F4F7] text-center  rounded-2xl mr-20 ml-20">
+    <header class="justify-center flex-col md:flex-row md:justify-between">
+        <nav class="flex items-center justify-between m-10 flex-col md:flex-row">
+            <img src="img/Logo Infowebeti.png" alt="Logo de Infowebeti">
+            <ul class="flex gap-[30px] text-[#667085] flex-wrap justify-center">
+                <button class="btn btn-ghost rounded-2xl">Sobre</button>
+                <button class="btn btn-ghost rounded-2xl">Professores</button>
+                <button class="btn btn-ghost rounded-2xl">Alunos</button>
+                <button class="btn btn-ghost rounded-2xl">Projetos</button>
+                <button class="btn btn-neutral rounded-2xl">Documentos</button>
+            </ul>
+        </nav>
+    </header>
+    <div class="bg-[#F2F4F7] text-center  rounded-2xl mr-10 ml-10 p-10">
         <h1 class=" font-semibold text-3xl pt-20 pb-10">Depois de muita espera,<br> finalmente chegou</h1>
         <p class="text-center text-[#667085] mb-5">O formulário para aquisição da camisa está oficialmente aberto!<br>
             Com um design original e dois modelos únicos, você vai poder <br>mostrar todo o seu orgulho de fazer parte
             dessa turma incrível!</p>
-        <ul class="flex items-center justify-center gap-8 pb-20">
+        <ul class="flex items-center justify-center gap-8 pb-20 flex-col">
             <button class="btn btn-neutral rounded-2xl hover:text-2xl p-7">Ser feliz agora</button>
             <button class="btn btn-outline rounded-2xl hover:text-2xl p-7">Ficar triste</button>
         </ul>
     </div>
-    <section class="flex justify-between mt-10 mx-5 justify-evenly m-10 ">
+    <section class="hidden md:flex justify-between mt-10 mx-5 justify-evenly m-10 flex-wrap gap-7 ">
         <img src="img/Nasa.png" alt="#" >
         <img src="img/Spotify.png" alt="icone do Spotify" >
         <img src="img/Google.png" alt="#" >
@@ -66,8 +68,9 @@
         </li>
     </ul>
     <hr class="m-10">
-
-    <img src="img/Camisa Infowebeti.png" alt="Imagem da camisa" class="w-full">
+    <div class="justify-center m-10">
+        <img src="img/Camisa Infowebeti.png" alt="Imagem da camisa" class="w-full">
+    </div>
     <div class="rating flex justify-center pt-5 gap-2">
         <input type="radio" name="rating-2" class="mask mask-star-2 bg-sky-400" aria-label="1 star" />
         <input type="radio" name="rating-2" class="mask mask-star-2 bg-sky-400" aria-label="2 star" checked="checked" />
@@ -80,7 +83,7 @@
         <br> nossa camiseta linda e maravilhosa.</p>
 
 
-    <ul class="flex justify-around mt-10 text-center">
+    <ul class="flex justify-around mt-10 text-center flex-col md:flex-row">
         <li>
             <h1 class="text-5xl font-semibold m-5">234+</h1>
             <p class="text-[#667085] mb-10">Primeiro número</p>
